@@ -125,10 +125,13 @@ O jogo não tem fim: são cinco mundos por ciclo (Parque, Fazenda, Feira, Shoppi
 ![Licença](https://img.shields.io/badge/licença-GPL--3.0-B8322A?style=flat-square)
 [![Versão](https://img.shields.io/github/v/release/Jano-Projects/honk?style=flat-square&label=versão&color=B8322A)](https://github.com/Jano-Projects/honk/releases/latest)
 [![Testes](https://img.shields.io/github/actions/workflow/status/Jano-Projects/honk/testes.yml?style=flat-square&label=testes)](https://github.com/Jano-Projects/honk/actions)
+[![Downloads](https://img.shields.io/github/downloads/Jano-Projects/honk/total?style=flat-square&label=downloads&color=1C2B33)](https://github.com/Jano-Projects/honk/releases)
 
 | Repositório | Conteúdo | Atividade |
 |---|---|---|
 | [**honk**](https://github.com/Jano-Projects/honk) | Regras do jogo em SQL separadas por assunto, renderização em JavaScript, testes das regras e instaladores para Windows, Debian/Ubuntu, Fedora e macOS. | ![Último commit](https://img.shields.io/github/last-commit/Jano-Projects/honk?style=flat-square&label=atualizado) |
+
+**[⬇ Baixar o HONK!](https://github.com/Jano-Projects/honk/releases/latest)**: instaladores para Windows (`.exe`), Debian/Ubuntu (`.deb`), Fedora (`.rpm`) e macOS (`.dmg`), além da versão portátil (`.zip`), cada um homologado automaticamente nas cinco plataformas antes de ser publicado.
 
 ---
 
@@ -151,7 +154,7 @@ Todos os projetos deste perfil são criados e mantidos por uma única pessoa. No
 | Identidade | Onde aparece | Quem é |
 |---|---|---|
 | **Victor H. Correa** | aprendiz-dev, aprendiz-addons, aviation-otp-observatory, aviation-otp-apex, honk | Eu. É o nome usado nos commits feitos das minhas máquinas de desenvolvimento. |
-| **Victor Hugo dos Santos Correa** | README e licença dos projetos de aviação | Eu, com o nome completo, como autor e titular dos direitos. |
+| **Victor Hugo dos Santos Correa** | README e licença dos projetos de aviação e do HONK! | Eu, com o nome completo, como autor e titular dos direitos. |
 | **Jano-Projects** | calculadora-rtc-facil | Eu, com o nome da conta da organização. |
 | **Projeto Jano** | este perfil, aprendiz-dev, aprendiz-addons | Eu, em edições feitas direto pelo site do GitHub. |
 | **GitHub** | commits feitos pelo site | Assinatura automática da plataforma nas edições feitas pelo navegador. Não é outra pessoa. |
