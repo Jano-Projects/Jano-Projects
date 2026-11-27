@@ -67,6 +67,8 @@ Assistente pessoal **local e offline**. Responde exclusivamente com base no conh
 | Reciprocal Rank Fusion (RRF) | Combinação de resultados de múltiplas buscas |
 | TextRank | Extração e sumarização de trechos relevantes |
 | Regressão logística | Busca calibrada, com pesos aprendidos a partir de perguntas reais |
+| Vetores de palavras | Aproximação de palavras de sentido parecido (sinônimos e variações) |
+| Busca em grafo | Percurso da "teia de porquês" entre os addons, até a raiz de cada resposta |
 
 </details>
 
@@ -74,23 +76,26 @@ Assistente pessoal **local e offline**. Responde exclusivamente com base no conh
 
 ## Calculadora RTC Fácil
 
-Interface amigável para a [calculadora oficial da Reforma Tributária do Consumo](https://github.com/ReceitaFederal/calculadora-rtc-regime-regular) (LC 214/2025), da Receita Federal. Abre com **um clique**, sem instalar Java, Git ou qualquer outra coisa antes, e **se atualiza sozinha**: quando a Receita publica uma versão nova, ela é baixada, compilada e colocada em uso sem interromper quem está usando. Os cálculos rodam no próprio computador.
+Interface amigável para a [calculadora oficial da Reforma Tributária do Consumo](https://github.com/ReceitaFederal/calculadora-rtc-regime-regular) (LC 214/2025), da Receita Federal. Tem **instaladores com ícone** para Windows, Debian/Ubuntu e Fedora: abre pelo menu, sem terminal e sem instalar Java ou Git antes, e **se atualiza sozinha**. Quando a Receita publica uma versão nova, ela é baixada, compilada e colocada em uso sem interromper quem está usando. Os cálculos rodam no próprio computador, e a tela traz um manual completo do que cada número significa e de onde ele vem.
 
 ![Java](https://img.shields.io/badge/Java%2025-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Área](https://img.shields.io/badge/área-tributário-0E6B5A?style=flat-square)
 [![Versão](https://img.shields.io/github/v/release/Jano-Projects/calculadora-rtc-facil?style=flat-square&label=versão&color=0E6B5A)](https://github.com/Jano-Projects/calculadora-rtc-facil/releases/latest)
 [![Testes](https://img.shields.io/github/actions/workflow/status/Jano-Projects/calculadora-rtc-facil/verificacao.yml?style=flat-square&label=testes)](https://github.com/Jano-Projects/calculadora-rtc-facil/actions)
+[![Downloads](https://img.shields.io/github/downloads/Jano-Projects/calculadora-rtc-facil/total?style=flat-square&label=downloads&color=1C2B33)](https://github.com/Jano-Projects/calculadora-rtc-facil/releases)
 
 | Repositório | Conteúdo | Atividade |
 |---|---|---|
-| [**calculadora-rtc-facil**](https://github.com/Jano-Projects/calculadora-rtc-facil) | Inicializador para Windows e Linux, atualização automática do motor oficial e tela de cálculo. | ![Último commit](https://img.shields.io/github/last-commit/Jano-Projects/calculadora-rtc-facil?style=flat-square&label=atualizado) |
+| [**calculadora-rtc-facil**](https://github.com/Jano-Projects/calculadora-rtc-facil) | Instaladores para Windows, Debian/Ubuntu e Fedora, versão portátil, atualização automática do motor oficial e tela de cálculo, com o código comentado para estudo. | ![Último commit](https://img.shields.io/github/last-commit/Jano-Projects/calculadora-rtc-facil?style=flat-square&label=atualizado) |
 
 **O que dá para fazer:**
 - montar uma nota item a item, com autocompletar de NCM e sugestão da classificação tributária;
 - comparar a mesma nota em duas datas (2026 × 2027) e ver a carga de hoje ao lado da de depois da reforma, inclusive no Simples Nacional (dentro ou fora do DAS);
 - conferir o XML de uma NF-e ou NFC-e contra a calculadora oficial, item por item, para homologar sistemas emissores;
 - compartilhar a nota por link e exportar para PDF, planilha ou JSON.
+
+**[⬇ Baixar a Calculadora RTC Fácil](https://github.com/Jano-Projects/calculadora-rtc-facil/releases/latest)**: instaladores para Windows (`.exe`), Debian/Ubuntu (`.deb`) e Fedora (`.rpm`), além da versão portátil (`.zip`), cada um homologado automaticamente em cada sistema antes de ser publicado.
 
 ---
 
@@ -131,7 +136,7 @@ O jogo não tem fim: são cinco mundos por ciclo (Parque, Fazenda, Feira, Shoppi
 |---|---|---|
 | [**honk**](https://github.com/Jano-Projects/honk) | Regras do jogo em SQL separadas por assunto, renderização em JavaScript, testes das regras e instaladores para Windows, Debian/Ubuntu, Fedora e macOS. | ![Último commit](https://img.shields.io/github/last-commit/Jano-Projects/honk?style=flat-square&label=atualizado) |
 
-**[⬇ Baixar o HONK!](https://github.com/Jano-Projects/honk/releases/latest)**: instaladores para Windows (`.exe`), Debian/Ubuntu (`.deb`), Fedora (`.rpm`) e macOS (`.dmg`), além da versão portátil (`.zip`), cada um homologado automaticamente nas cinco plataformas antes de ser publicado.
+**[⬇ Baixar o HONK!](https://github.com/Jano-Projects/honk/releases/latest)**: instaladores para Windows (`.exe`), Debian/Ubuntu (`.deb`) e Fedora (`.rpm`), o aplicativo do macOS (`HONK.app`, num `.zip`) e a versão portátil (`.zip`), cada um homologado automaticamente antes de ser publicado.
 
 ---
 
@@ -144,6 +149,7 @@ O jogo não tem fim: são cinco mundos por ciclo (Parque, Fazenda, Feira, Shoppi
 | Ubuntu (versão atual) | ✅ | ✅ | ✅ | ✅ |
 | Debian (estável) | ✅ | ✅ | ✅ | ✅ |
 | macOS | — | — | — | ✅ |
+| **Instalador com ícone** | — | ✅ | — | ✅ |
 
 ---
 
